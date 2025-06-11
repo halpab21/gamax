@@ -1,0 +1,22 @@
+#dropdown-select {
+    margin-left: 20vw;
+    width: 20vw;
+    background-color: #BFB6B0;
+    height: 3vw;
+    margin-top: 0.5vw;
+    padding: 0;
+    color: #8C7979;
+    font-size: 1.5vw;
+    border-radius: 2vw;
+    font-family: Arial, sans-serif;
+    border: none;
+    text-align: center;
+    text-align-last: center;
+
+}
+
+
+select>option {
+    text-align: center;
+
+}

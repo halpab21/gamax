@@ -1,0 +1,118 @@
+#shown-text {
+    border-radius: 2vw;
+    background-color: #BFB6B0;
+    text-align: center;
+    color: #8C7979;
+    font-family: Arial, sans-serif;
+    font-size: 2.3vw;
+    height: 3vw;
+
+    align-items: center;
+    align-content: center;
+}
+#shown-text1 {
+    border-radius: 2vw;
+    background-color: #BFB6B0;
+    text-align: center;
+    color: #8C7979;
+    font-family: Arial, sans-serif;
+    font-size: 2.3vw;
+    height: 3vw;
+
+    align-items: center;
+    align-content: center;
+}
+#shown-text2 {
+    border-radius: 2vw;
+    background-color: #BFB6B0;
+    text-align: center;
+    color: #8C7979;
+    font-family: Arial, sans-serif;
+    font-size: 2.3vw;
+    height: 3vw;
+
+    align-items: center;
+    align-content: center;
+}
+
+#settings-button {
+    margin-left: 5vw;
+    margin-top: 0.5vw;
+    transition: 1s;
+}
+
+#settings-button:hover {
+    rotate: 180deg;
+    scale: 1.2;
+}
+
+#singleDivs {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    border-radius: 1.5vw;
+    background: #BFB6B0;
+    text-align: center;
+    width: 48vw;
+    height: 12vw;
+}
+
+#carouselExample {
+    width: 50vw;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    max-height: 100vw;
+}
+
+
+#VOICE-DIV {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #595959;
+    border-radius: 1.5vw;
+    text-align: center;
+    font-size: 3.5vw;
+    width: 50vw;
+    height: 77vh;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
+    align-items: center;
+    padding-block: 2.5vh;
+    gap: 2vh
+}
+
+#top {
+    display: flex;
+}
+
+#Piano{
+    bottom: 2.5vh;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 1.5vw;
+    background-color: #BFB6B0;
+    width: 98vw;
+    height: 5vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    padding: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vw;
+}
+
+.whitePinoKey {
+    background-color: white;
+    height: 4vw;
+    border-radius: 15px;
+    width: 1.9vw;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+    position: relative;
+    display: flex;
+}

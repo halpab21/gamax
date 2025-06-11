@@ -1,0 +1,213 @@
+#container-Effects{
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 0;
+    column-gap: 0;
+}
+
+#col-left{
+    background-color: #595959;
+    height: 77vh;
+    width: 50vw;
+    border-radius: 1.5vw;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+}
+
+#col-right{
+    height: 77vh;
+    width: 47vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+
+#col-right-upper{
+    height: 37.5vh;
+    background-color: #595959;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border-radius: 1.5vw;
+    margin-bottom: 2vh;
+    padding: 1vh;
+}
+
+#col-right-lower{
+    height: 37.5vh;
+    background-color: #595959;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border-radius: 1.5vw;
+}
+
+.EffectOneLine{
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    border-radius: 1.5vw;
+    background: #BFB6B0;
+    text-align: center;
+    width: 48vw;
+    height: 16.07vh;
+    margin-top: 1.35vw;
+    margin-left: 1vw;
+}
+
+.Options{
+    background-color: #8C80795C;
+    width: 3vw;
+    height: 12vh;
+    border-radius: 1.5vw;
+    margin-left: 1vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 1.5vw;
+}
+
+.knob-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.knob {
+    width: 2.7vw;
+    height: 2.7vw;
+    background-color: #3c3c3c;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.knob-indicator {
+    width: 0.7vh;
+    height: 1.3vh;
+    background-color: white;
+    position: absolute;
+    top: 0.25vw;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.knob-label {
+    margin-top: 0.2vw;
+    font-size: 1.5vh;
+    text-align: center;
+    font-family: Arial;
+    color: #4b4b4b;
+}
+
+.control-panel {
+    margin-left: 20px;
+    height: 10vw;
+    width: 20vw;
+    display: grid;
+    border-radius: 25px;
+    grid-template-columns: repeat(2, 10vw);
+    background-color: #8C80795C;
+}
+
+
+.knob-label input[type="number"] {
+    text-align: center;
+    font-size: 1.5vh;
+    border-radius: 3px;
+    border: 0px;
+    height: 1.5vw;
+    background-color: transparent;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+.SecControlPanel {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1vw;
+    width: 20vw;
+    background-color: #8C80795C;
+    border-radius: 25px;
+}
+
+#KnobContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 32vw;
+    height: 13vh;
+    background-color: #8C80795C;
+    border-radius: 1.5vw;
+    margin: 1vw 0vw 1vw 0;
+}
+
+#smallKnobContainer{
+    font-size: 1vw;
+    width: 24vw;
+    height: 13vh;
+    background-color: #8C80795C;
+    border-radius: 1.5vw;
+    margin-left: 0;
+}
+
+#smallKnobContainerHeader{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+    background-color: #8C80795C;
+    border-top-left-radius: 1.5vw;
+    border-top-right-radius: 1.5vw;
+}
+
+#smallKnobContainerKnobs{
+    margin: 1vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#EqualizerControlContainer{
+    margin: 1.5vw
+}
+
+#outerFrequency{
+    padding: 1vh;
+    display: block;
+    background-color: #8C80795C;
+    width: 20vw;
+    height: 13vh;
+    border-radius: 1.5vw;
+}
+
+#innerFrequency{
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    background-color: #595959;
+    border-radius: 1.5vw;
+    padding: 0.5vh;
+    font-size: 5vh;
+}
+
+p{
+    font-size: 4vh;
+}

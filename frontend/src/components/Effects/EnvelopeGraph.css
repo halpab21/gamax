@@ -1,0 +1,124 @@
+
+._envelope-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vh;
+    border-radius: 1.5vw;
+    height: 37.5vh;
+    font-weight: bold;
+    color: black;
+}
+
+/* Graph container */
+._graph-container {
+    background: #BFB6B0;
+    border-radius: 1.5vw;
+    height: 33vh;
+    width: 44vw;
+}
+
+/* SVG styling */
+._envelope-svg {
+    margin-top: 0;
+    width: 100%;
+    height: 35vh
+}
+
+/* Grid lines */
+._grid-line {
+    stroke: #666;
+    stroke-dasharray: 4 4;
+    stroke-width: 1;
+}
+
+/* Envelope path */
+._envelope-path {
+    fill: none;
+    stroke: #3b3b3b;
+    stroke-width: 3;
+}
+
+/* Control points */
+.control-point {
+    fill: #ccc;
+    stroke: none;
+    cursor: pointer;
+}
+
+.control-point-active:hover {
+    fill: #fff;
+}
+
+.control-point-fixed {
+    fill: #bbb;
+}
+
+/* Knob container */
+._knobs-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+/* Knob wrapper */
+._knob-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Knob styling */
+._knob {
+    width: 50px;
+    height: 50px;
+    background: #3c3c3c;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: grab;
+}
+
+._knob-indicator {
+    width: 4px;
+    height: 20px;
+    background: #fff;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform-origin: 50% 100%;
+    transform: translateX(-50%);
+}
+
+/* Knob labels */
+._knob-label-container {
+    text-align: center;
+    margin-top: 8px;
+    color: #ddd;
+}
+
+._knob-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+._knob-value {
+    font-size: 12px;
+    color: #aaa;
+}
+
+/* Point labels */
+._point-label {
+    fill: #666;
+    font-size: 12px;
+    text-anchor: middle;
+}
+
+/* Add subtle drop shadow to the whole graph */
+._envelope-container {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Let me know if you’d like any adjustments or enhancements! */

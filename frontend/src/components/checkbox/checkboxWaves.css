@@ -1,0 +1,94 @@
+
+input[type="radio"] {
+    display: none;
+}
+
+#outer-container{
+    height: 10vw;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.round-checkbox-container1 {
+    display: flex;
+    margin-left: 1vw;
+}
+
+.round-checkbox-custom1 {
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 100%;
+    background-color: #fff;
+    position: relative;
+    transition: background-color 0.5s, border-color 0.5s;
+    margin-right: 0.5vw;
+}
+
+.round-checkbox-input1:checked + .round-checkbox-custom1 {
+    background-color: #8C7979;
+    border-color: #8C7979;
+}
+
+.round-checkbox-custom1::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 0.7vw;
+    height: 0.7vw;
+    border-radius: 50%;
+    background-color: white;
+    transition: transform 0.2s ease;
+}
+
+.round-checkbox-input1:checked + .round-checkbox-custom1::after {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.round-checkbox-input1:focus {
+    outline: none;
+}
+
+.round-checkbox-input1:focus + .round-checkbox-custom1 {
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+.round-checkbox-text1 {
+    font-size: 1vw;
+    color: #4b4b4b;
+    font-family: Arial, sans-serif;
+}
+.continue-button-wave {
+    justify-self: end;
+    background-color: #8C7979;
+    color: white;
+    border: none;
+    border-radius: 0.5vw;
+    padding: 0.8vw 2vw;
+    font-size: 1vw;
+    font-family: Arial, sans-serif;
+
+}
+
+.button-checkbox-container{
+    display: grid; /* Aktiviert Grid-Layout */
+    grid-template-columns: 2fr auto 2fr; /* Drei Spalten: Links, Mitte (leer), Rechts */
+    align-items: center; /* Zentriert die Elemente vertikal */
+    width: 100%; /* Stellt sicher, dass der Container die volle Breite einnimmt */
+}
+
+#exit-button{
+    position: absolute;
+    font-size: 1.5vw;
+    top: 10px;
+    right: 10px;
+    color: #4b4b4b;
+}
+
+#exit-button:hover{
+    cursor: pointer;
+}

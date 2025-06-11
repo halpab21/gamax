@@ -1,0 +1,43 @@
+#divForWaves {
+    margin-left: 1vw;
+    height: 10vw;
+    width: 20vw;
+    display: grid;
+    border-radius: 25px;
+    grid-template-columns: repeat(2, 10vw);
+    background-color: #8C80795C;
+}
+
+
+#container{
+    background-color: white;
+    width: 20vw;
+}
+
+.continue-button {
+    position: relative; /* Ermöglicht präzise Positionierung */
+    bottom: 2vw; /* Abstand vom unteren Rand */
+    right: 2vw; /* Abstand vom rechten Rand */
+    background-color: #8C7979; /* Passende Hintergrundfarbe */
+    color: white; /* Textfarbe */
+    border: none; /* Entfernt den Standardrahmen */
+    border-radius: 0.5vw; /* Abgerundete Ecken */
+    padding: 0.8vw 2vw; /* Innenabstand (oben/unten, links/rechts) */
+    font-size: 1vw; /* Schriftgröße */
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover-Effekt für den Button */
+.continue-button:hover {
+    background-color: #705D5D;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Fokus-Effekt für den Button */
+.continue-button:focus {
+    outline: none;
+    box-shadow: 0px 0px 8px 2px rgba(140, 121, 121, 0.8);
+}

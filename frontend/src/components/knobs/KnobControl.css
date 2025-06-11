@@ -1,0 +1,77 @@
+.knob-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.knob {
+    width: 2.3vw;
+    height: 2.3vw;
+    background-color: #3c3c3c;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.knob-indicator {
+    width: 0.1em;
+    height: 0.2em;
+    background-color: white;
+    position: absolute;
+    top: 0.25vw;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.knob-label {
+    margin-top: 0.2vw;
+    font-size: 0.25em;
+    text-align: center;
+    font-family: Arial;
+    color: #4b4b4b;
+}
+
+.control-panel {
+    margin-left: 20px;
+    height: 10vw;
+    width: 20vw;
+    display: grid;
+    border-radius: 25px;
+    grid-template-columns: repeat(2, 10vw);
+    background-color: #8C80795C;
+}
+
+
+.knob-label input[type="number"] {
+    text-align: center;
+    font-size: 1em;
+    border-radius: 3px;
+    border: 0px;
+    height: 1.5vw;
+    background-color: transparent;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+.SecControlPanel {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1vw;
+    width: 20vw;
+    background-color: #8C80795C;
+    border-radius: 25px;
+}
